@@ -4,9 +4,7 @@ export const content = [
   "./src/**/*.{vue,js,ts,jsx,tsx}",
 ];
 export const darkMode = 'class';
-// module.exports = {
-//   darkMode: 'class',
-// };
+
 export const theme = {
   colors: {
     // dark theme
@@ -33,7 +31,8 @@ export const theme = {
     'sea-blue': '#457897',
     'light-green': '#15B512',
     // light theme
-    'white': '#EFEFEF',
+    'white': '#FFFFFF',
+    'mud-white': '#EFEFEF',
   'graphite': '#404040',
   'pigeon': '#f2f2f2',
   'arrow-color': '#797979',

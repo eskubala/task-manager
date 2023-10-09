@@ -1,7 +1,7 @@
 <template>
 <div>
-    <button @click="toggleTheme" class="bg-gray z-30 rounded-full">
-        <svg class="fill-light-gray" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M448 256c0-106-86-192-192-192V448c106 0 192-86 192-192zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/></svg>
+    <button @click="toggleTheme" class="bg-white dark:bg-gray shadow-lg dark:shadow-lg z-30 rounded-full">
+        <svg class="fill-graphite dark:fill-light-gray" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M448 256c0-106-86-192-192-192V448c106 0 192-86 192-192zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/></svg>
     </button>
 </div>
 </template>
