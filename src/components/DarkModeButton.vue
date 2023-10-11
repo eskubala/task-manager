@@ -30,14 +30,15 @@ button:focus {
 </style>
 
 <script setup lang="ts">
-import { ref, inject, computed, type Ref } from 'vue';
-const isDarkMode:Ref<boolean> | undefined= inject('isDarkMode');
+import { ref, inject, computed} from 'vue';
+//import type { InjectionKey } from 'vue';
+const isDarkMode = inject<boolean>('isDarkMode');
 
   const toggleTheme = () => {
-    if (isDarkMode) 
-    {isDarkMode.value = !isDarkMode.value;}
-      console.log("toggletheme")
+    if (isDarkMode) {
+      isDarkMode.value = !isDarkMode.value
     };
+  };
 
   //  const themeClass = computed(() => {
   //    return isDarkMode.value ? 'dark' : '';

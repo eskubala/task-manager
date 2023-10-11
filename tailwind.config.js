@@ -53,8 +53,14 @@ export const theme = {
   'light-purple': '#ccabf0',
   'blue': '#6BC4F5',
   'baby-blue': '#82c4f5',
-
   },
+
+  fontSize: {
+    sm: '20px',
+    base: '32px',
+    xl: '64px',
+  },
+
   extend: {},
 };
 export const plugins = [];
