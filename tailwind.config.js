@@ -40,7 +40,6 @@ export const theme = {
   'light-juicy-green': '#c5faa5',
   'mint': '#d3fcb9',
   'yellow': '#F5EF6B',
-  'light-yellow': '#f5ef6b',
   'orage-light-theme': '#F5A56B',
   'peach': '#edb789',
   'light-peach': '#f0c49f',
