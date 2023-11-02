@@ -40,7 +40,7 @@ export const theme = {
   'light-juicy-green': '#c5faa5',
   'mint': '#d3fcb9',
   'yellow': '#F5EF6B',
-  'orage-light-theme': '#F5A56B',
+  'orange-light-theme': '#F5A56B',
   'peach': '#edb789',
   'light-peach': '#f0c49f',
   'light-red': '#F56B6B',
@@ -55,11 +55,20 @@ export const theme = {
   },
 
   fontSize: {
+    xs: '16px',
     sm: '20px',
     base: '32px',
     xl: '64px',
   },
 
+  borderRadius: {
+    'none': '0',
+    'xs': '7px',
+    'sm': '10px',
+    'md': '25px',
+    'lg': '35px',
+    'full': '9999px',
+  },
   extend: {},
 };
 export const plugins = [];
