@@ -15,6 +15,7 @@ import AddTaskComponent from '@/components/AddTaskComponent.vue';
             <TaskCounter class="bg-yellow opacity-[65%] dark:bg-limon text-dark-gray" title="To do" to-do-counter="3" />
             <TaskCounter class="bg-green-light-theme opacity-[65%] dark:bg-limon m-auto" title="Done" to-do-counter="3" />
           </div>
+          <SectionHeader title="New Task"/>
           <div>
             <AddTaskComponent />
           </div>
